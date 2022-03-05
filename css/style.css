@@ -1,0 +1,166 @@
+:root {
+    --accent: red;
+    --accent-light: #3764a7;
+    --pure-white: #fff;
+}
+.HTML {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+
+}
+
+.body {
+    margin: 0;
+    font-family:'Open Sans', sans-serif; 
+    color: var(--accent);
+}
+.container {
+    width: 1140px;
+    margin: o auto;
+}
+
+.section{
+    padding: 60px 0;
+}
+
+.section-title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.header {
+    background-color: var(--accent);
+}
+
+.header {
+    color: var(--pure-white);
+    
+}
+
+.header-nav {
+    padding: 0 15px;
+    border: 1px solid black;
+}
+
+.header-menu-link {
+    padding: 15px;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    transition: background-color 1s;
+}
+
+.header-menu-item {
+    display: inline;
+}
+
+.intro {
+    padding: 60px 0;
+    margin-bottom: 60px;
+}
+
+.intro-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-left {
+    width: 30%;
+
+}
+
+.intro-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.intro-right h1
+.intro-right h3 {
+    margin: 0 0 10px;
+}
+
+.contacts{
+    margin-bottom: 60px;
+}
+
+.contacts ul {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 30px;
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.skills {
+    color: var(--pure-white);
+background-color: var(--accent);
+padding: 60px 0;
+}
+
+.skills ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.skills li {
+    padding: 10px 15px;
+    background-color: var(--accent-light);
+    border-radius: 4px;
+}
+
+.code-example {
+    text-align: center;
+}
+
+.code-example pre {
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.2;
+    color: var(--pure-white);
+    background-color: var(--accent);
+    border-radius: 8px;
+}
+
+.languages {
+    text-align: center;
+}
+
+.languages ol {
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.2;
+    color: var(--pure-white);
+    background-color: var(--accent);
+    border-radius: 8px;
+}
+
+.education {
+    text-align: center;
+}
+
+.education ul {
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.2;
+    color: var(--pure-white);
+    background-color: var(--accent);
+    border-radius: 8px;
+}
