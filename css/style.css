@@ -164,3 +164,7 @@ padding: 60px 0;
     background-color: var(--accent);
     border-radius: 8px;
 }
+
+.footer p {
+    text-align: center;
+}
